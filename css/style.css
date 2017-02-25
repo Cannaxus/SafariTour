@@ -1,0 +1,343 @@
+body {
+	margin: 0px;
+	padding: 0px;
+  background: url("../img/bg.jpg") 50% 0 no-repeat;
+}
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	padding: 0 0;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*.center {         -----------ПРОВЕРКА ЦЕНТРА------------------
+	width: 511px;
+	height: 50px;
+	border-right: 2px solid black;
+}*/
+
+
+.header-top {
+	width: 965px;
+    height: 102px;
+    background-color: #4cb2e7;
+    border-radius: 11px;
+    transform: rotate(-2.2deg);
+    margin-top: -35px;
+    margin-left: 5px;
+}
+
+.logo {
+    float: left;
+    margin-left: 28px;
+    width: 248px;
+    height: 115px;
+    background-color: #e1ecf2;
+    border: 6px solid #fff;
+    border-radius: 14px;
+    box-shadow: 4px 1px 10px 0px rgba(18, 126, 165, 0.92);
+
+    -moz-transform: rotate(-4.3deg); /* Для Firefox */
+    -ms-transform: rotate(-4.3deg); /* Для IE */
+    -webkit-transform: rotate(-4.3deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(-4.3deg); /* Для Opera */
+    transform: rotate(-4.3deg);
+}
+
+.logo_img {
+    transform: rotate(6deg);
+    padding: 37px 21px;
+}
+
+.main-nav {
+	transform: rotate(2deg);
+	float: left;
+    margin-top: 11px;
+    margin-left: -40px;
+    font-size: 0px;
+}
+.logo_point {
+    position: absolute;
+    top: 41px;
+    left: -192px;
+    width: 200px;
+    height: 70px;
+    cursor: pointer;
+}
+.main-nav li{
+	display: inline-block;
+	font-family: 'Souvenir', arial;
+	font-size: 17px;
+	line-height: 52px;
+	padding: 30px;
+}
+.main-nav a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.banner_img {
+    clear: both;
+    position: relative;
+    float: left;
+    top: 44px;
+    left: 6px;
+}
+
+.write-us {
+	position: relative;
+    left: 676px;
+    top: 19px;
+    border: 7px solid #7ebee0;
+    width: 308px;
+    height: 470px;
+    background-color: #299fca;
+    border-radius: 26px;
+}
+
+.write_bookmark {
+	position: absolute;
+    left: -18px;
+    top: 26px;
+    width: 202px;
+    height: 32px;
+    background-color: #ded90e;
+    border-radius: 4px;
+    /*font-family: 'ag_letterica-boldbold';    ---------ВАРИАНТ с оригинала---------- */
+    font-family: Arial, sans-serif;         /*---------ВАРИАНТ лучший вид----------*/
+    font-size: 21px;
+    color: #fff;
+    padding-top: 8px;
+    padding-left: 25px;
+    box-shadow: 1px 0px 6px 1px rgb(18, 126, 165);
+}
+
+.write_bookmark::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 211px;
+    top: 6px;
+    border-radius: 1px;
+    transform: rotate(45deg);
+    background-color: #299fca;
+    border-top-right-radius: 28px;
+    box-shadow: inset 1px 0px 6px 0px rgb(18, 126, 165);
+}
+
+.write_bookmark::before { 
+	content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #299fca;
+    top: 0px;
+    right: -31px;
+    border-bottom-left-radius: 28px;
+    transform: rotate(45deg);
+    box-shadow: 0px 0px 3px 3px #299fca;
+    z-index: 5;
+}
+
+.write-us label { 
+	font-family: 'ag_letterica-boldbold';
+	font-size: 17px;
+	color: white;
+	text-shadow: #2090b9 2px 2px 0.9pt, #2090b9 -2px -2px 0.9pt, 
+                 #2090b9 -2px 2px 0.9pt, #2090b9 2px -2px 0.9pt,
+                 #2090b9 0px 2px 0.9pt, #2090b9 0px -2px 0.9pt,
+                 #2090b9 -2px 0px 0.9pt, #2090b9 2px 0px 0.9pt;
+	margin-bottom: 24px;
+	float: left;
+}
+
+
+.form_input-area {
+    position: absolute;
+    top: 105px;
+    left: 4px;
+}
+
+.input-area_field {
+    float:right;
+}
+
+.input-area_field label {
+    padding-right: 10px;
+}
+.input-area_field input {
+	width: 145px;
+    height: 24px;
+    padding-right: 14px;
+    border: 3px solid #a7d1e6;
+    border-radius: 10px;
+    margin-top: -11px;
+    margin-right: 29px;
+    margin-bottom: 19px;
+    padding-left: 5px;
+}
+
+.input-area_field textarea {
+    width: 157px;
+    border: 3px solid #a7d1e6;
+    border-radius: 10px;
+    resize: none;
+    margin-top: -7px;
+    margin-right: 29px;
+    padding-left: 5px;
+}
+
+.btn-yellow { 
+    width: 97px;
+    height: 33px;
+    background: linear-gradient(to top, #e5db10, #fff203);
+    border-radius: 7px;
+    border: none;
+    font-family: 'ag_letterica-boldbold';
+    font-size: 15px;
+    position: relative;
+    right: -176px;
+    top: 8px;
+    padding-top: 2px;
+    color: #64affc;
+}
+
+  /* --------------Ladder-----------*/
+.ladder {
+    position: absolute;
+    bottom: -19px;
+    left: 13px;
+    width: 99px;
+    height: 200px;
+}
+.ladder div {
+    position: absolute;
+}
+
+.ladder_1::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 150px;
+    background-color: #a7d1e6;
+    transform: skew(-5deg);
+    left: 16px;
+    top: -1px;
+}
+.ladder_1::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 150px;
+    background-color: #a7d1e6;
+    transform: skew(5deg);
+    left: 60px;
+}
+.ladder_2 {
+    top: 16px;
+    left: 23px;
+    background-color: #a7d1e6;
+    width: 41px;
+    height: 6px;
+}
+.ladder_2::before {
+    content: "";
+    position: absolute;
+    top: 22px;
+    left: -7px;
+    background-color: #a7d1e6;
+    width: 49px;
+    height: 6px;
+}
+.ladder_2::after {
+    content: "";
+    position: absolute;
+    top: 51px;
+    left: -5px;
+    background-color: #a7d1e6;
+    width: 43px;
+    height: 4px;
+}
+.ladder_3 {
+    top: 92px;
+    left: 27px;
+    background-color: #a7d1e6;
+    width: 36px;
+    height: 6px;
+}
+.ladder_3::after {
+    content: "";
+    position: absolute;
+    top: 22px;
+    left: -10px;
+    background-color: #a7d1e6;
+    width: 50px;
+    height: 6px;
+}
+
+.main-cloud {
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    left: 0px;
+    top:406px;
+    background: url("../img/main-cloud.png")50% 0 no-repeat;
+}
+
+@media (max-width: 1023px) {
+  .main-cloud {
+    top:406px;
+  }
+}
+
+
+
+/*----------------------MAIN---------------------*/
+
+main {
+width: auto;
+background-color: #127ea5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text1 {
+font-size: 17px;
+font-family: "Avenir LT Std";
+}
+.text2 {
+font-family: 'ag_letterica-boldbold';
+font-size: 21px;
+line-height: 52px;
+}
+.text3 {
+font-family: 'Souvenir', arial;
+font-size: 27px;
+line-height: 52px;
+}
+.text4 {
+font-family: arial;
+font-size: 21px;
+line-height: 52px;
+}
+
