@@ -50,7 +50,7 @@ body {
 .logo_img {
     transform: rotate(6deg);
     -moz-transform: rotate(6deg); /* Для Firefox */
-    -ms-transform: rotate(66deg); /* Для IE */
+    -ms-transform: rotate(6deg); /* Для IE */
     -webkit-transform: rotate(6deg); /* Для Safari, Chrome, iOS */
     -o-transform: rotate(6deg); /* Для Opera */
     padding: 37px 21px;
@@ -640,112 +640,231 @@ font-size: 27px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.tooltip
-{
-    
-  position: relative;
-  background: url('../img/arrow.png') center no-repeat;
-  width: 50px;
-  height: 50px;
-    background-position: 0px -2px;
-    top: 151px;
-    left: 195px;
-
-}
-
-.tooltip span
-{
-   
-  visibility: hidden;
-  position: absolute; 
-  bottom: 60px;
-  left: 50px;
-
-  width: 230px;
-  margin-left: -127px;
-  padding: 10px;
-  opacity: .9;
-    
-                    
+/*--------------------Map tooltip----------------*/
+.tool {
+    content: "";
+    visibility: visible;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    padding: 10px;
+    opacity: .8;
+    border: 1px solid white;
     background: -webkit-linear-gradient(top, #ffffff, #e5e1e1);
     background: -moz-linear-gradient(top, #ffffff, #e5e1e1);
     background: -ms-linear-gradient(top, #ffffff, #e5e1e1);
     background: -o-linear-gradient(top, #ffffff, #e5e1e1);
     background: linear-gradient(top, #ffffff, #e5e1e1);
-
-  -moz-border-radius: 5px;
-  border-radius: 5px;  
-  -moz-box-shadow: 0 3px 14px rgba(0,0,0,0.3);
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 3px 14px rgba(0,0,0,0.3);
     -webkit-box-shadow: 0 3px 14px rgba(0,0,0,0.3);
-    box-shadow: 0 3px 14px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 1px -2px rgba(0,0,0,0.3);
+    
+    text-align: center;
+    font-family: "arial";
+font-size: 21px;
 }
 
-.tooltip:hover
-{
-  border: 0; /* IE6 fix */
-}
 
-.tooltip:hover span
-{
-  visibility: visible;
-}
-
-.tooltip span:before,
-.tooltip span:after
-{
+.tool_down:before,
+.tool_down:after,
+.tool_down .tooltip:before,
+.tool_down .tooltip:after {
   content: "";
   position: absolute;
-  z-index: 1000;
   bottom: -7px;
   left: 50%;
   margin-left: -8px;  
   border-top: 8px solid #e5e1e1;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;        
-  border-bottom: 0;  
 }
 
-.tooltip span:before
-{
-  border-top-color: #e5e1e1;
-  bottom: -8px;
-}
-
-/* Yellow */
-
-.yellow-tooltip span
-{
-
-  border-color: #e5e1e1;
-  background-color: #e5e1e1;                     
-}
-
-.yellow-tooltip span:after
-{ 
+.tool_down:after,
+.tool_down .tooltip:after { 
   border-top-color: #e5e1e1;
 }
 
-.yellow-tooltip span:before
-{
-  border-top-color: #ffffff;
+.tool_down:before,
+.tool_down .tooltip:before {
+  border-top-color: #fff;
+    bottom: -8px;
 }
+
+.tool_down .tooltip {
+    content: "";
+    visibility: hidden;
+    position: absolute;
+    left: -105px;
+        bottom: -1px;
+    padding: 10px;
+    opacity: .8;
+    border: 1px solid white;
+    background: -webkit-linear-gradient(top, #ffffff, #e5e1e1);
+    background: -moz-linear-gradient(top, #ffffff, #e5e1e1);
+    background: -ms-linear-gradient(top, #ffffff, #e5e1e1);
+    background: -o-linear-gradient(top, #ffffff, #e5e1e1);
+    background: linear-gradient(top, #ffffff, #e5e1e1);
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 3px 14px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 3px 14px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 1px -2px rgba(0,0,0,0.3);
+    text-align: center;
+    font-family: "arial";
+    font-size: 21px;
+}
+
+
+.tool_top:after,
+.tool_top .tooltip:after {
+    content: "";
+    position: absolute;
+    z-index: 1000;
+    top: -9px;
+    left: 50%;
+    margin-left: -8px;
+    border-bottom: 8px solid #fff;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;     
+}
+.tool_top:after,
+.tool_top .tooltip:after { 
+  border-top-color: #e5e1e1;
+}
+.tool_top .tooltip {
+    content: "";
+    visibility: hidden;
+    position: absolute;
+    left: -105px;
+        top: -3px;
+    padding: 10px;
+    opacity: .8;
+    border: 1px solid white;
+    background: -webkit-linear-gradient(top, #ffffff, #e5e1e1);
+    background: -moz-linear-gradient(top, #ffffff, #e5e1e1);
+    background: -ms-linear-gradient(top, #ffffff, #e5e1e1);
+    background: -o-linear-gradient(top, #ffffff, #e5e1e1);
+    background: linear-gradient(top, #ffffff, #e5e1e1);
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 3px 14px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 3px 14px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 1px -2px rgba(0,0,0,0.3);
+    text-align: center;
+    font-family: "arial";
+    font-size: 21px;
+}
+
+
+
+
+/*-----------------------Continent---------------------*/
+
+.tool_n-america {
+    left: 164px;
+    top: 156px;
+}
+.tool_n-america:hover .tooltip {
+  visibility: visible;
+}
+.tool_n-america:hover {
+    visibility: hidden;
+}
+.tool_n-america:hover + .tool_s-america {
+    visibility: hidden;
+}
+
+.tool_s-america {
+    left: 277px;
+    bottom: 112px;
+}
+.tool_s-america:hover .tooltip {
+  visibility: visible;
+}
+.tool_s-america:hover {
+    visibility: hidden;
+}
+.tool_europa:hover + .tool_africa {
+    visibility: hidden;
+}
+
+.tool_europa {
+    left: 515px;
+    bottom: 276px;
+}
+.tool_europa:hover .tooltip {
+  visibility: visible;
+}
+.tool_europa:hover {
+    visibility: hidden;
+}
+
+.tool_africa {
+    left: 492px;
+    bottom: 172px;
+}
+.tool_africa:hover .tooltip {
+  visibility: visible;
+}
+.tool_africa:hover {
+    visibility: hidden;
+}
+
+.tool_asia {
+        left: 678px;
+    bottom: 289px;
+}
+.tool_asia:hover .tooltip {
+  visibility: visible;
+}
+.tool_asia:hover {
+    visibility: hidden;
+}
+
+
+
+
+/*----------------Option Article on MAP----------*/
+
+.map_tooltip_item {
+    margin-bottom: 10px;
+}
+
+.map_tooltip_img {
+    width: 78px;
+    height: 57px;
+    border: 3px solid white;
+    border-radius: 5px;
+    float: left;
+
+}
+.map_tooltip_item h3  {
+    font-size: 17px;
+    font-family: "Avenir LT Std";
+    margin: 0 0;
+}
+
+.map_tooltip_item p {
+    width: 143px;
+    font-size: 15px;
+    font-family: "Avenir LT Std";
+    margin: 0 0;
+    line-height: 19px;
+    text-align: left;
+    margin-left: 90px;
+}
+.tooltip span {
+     font-size: 23px;
+    font-family: "Avenir LT Std";
+    color: #7d7d7d;
+    padding-top: 5px;
+}
+
+
+
+
 
 
 
