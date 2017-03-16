@@ -217,7 +217,7 @@ body {
 }
 
 .write-us label {
-    font-family: 'ag_letterica-boldbold';
+    font-family: 'ag_letterica-boldbold', arial;
     font-size: 17px;
     color: white;
     text-shadow: #2090b9 2px 2px 0.9pt, #2090b9 -2px -2px 0.9pt, #2090b9 -2px 2px 0.9pt, #2090b9 2px -2px 0.9pt, #2090b9 0px 2px 0.9pt, #2090b9 0px -2px 0.9pt, #2090b9 -2px 0px 0.9pt, #2090b9 2px 0px 0.9pt;
@@ -267,7 +267,7 @@ body {
     background: linear-gradient(to top, #e5db10, #fff203);
     border-radius: 7px;
     border: none;
-    font-family: 'ag_letterica-boldbold';
+    font-family: 'ag_letterica-boldbold', arial;
     font-size: 15px;
     position: relative;
     right: -176px;
@@ -435,14 +435,14 @@ h1 {
 
 .promo h2 {
     font-size: 17px;
-    font-family: "Avenir LT Std";
+    font-family: "Avenir LT Std", arial;
     color: white;
     margin: 0 0;
 }
 
 .promo p {
     font-size: 15px;
-    font-family: "Avenir LT Std";
+    font-family: "Avenir LT Std", arial;
     color: white;
     margin: 0 0;
     padding-top: 6px;
@@ -467,7 +467,7 @@ h1 {
     border: none;
     color: #64affc;
     padding-top: 2px;
-    font-family: 'ag_letterica-boldbold';
+    font-family: 'ag_letterica-boldbold', arial;
     font-size: 15px;
     margin: 11px 3px 0 0;
     cursor: pointer;
@@ -503,7 +503,7 @@ h1 {
     text-align: center;
     padding-top: 8px;
     color: #81ffff;
-    font-family: 'ag_letterica-boldbold';
+    font-family: 'ag_letterica-boldbold', arial;
     font-size: 15px;
     text-transform: uppercase;
 }
@@ -518,7 +518,7 @@ h1 {
 
 .slider-feature {
     font-size: 15px;
-    font-family: "Avenir LT Std";
+    font-family: "Avenir LT Std", arial;
 }
 
 .slider input[id=feature-1]:checked~.slider-control label[for=feature-1],
@@ -672,7 +672,7 @@ tbody tr:hover td::before {
 }
 
 .section_map h2 {
-    font-family: 'ag_letterica-boldbold';
+    font-family: 'ag_letterica-boldbold', arial;
     font-size: 27px;
     color: #4690b4;
     text-align: center;
@@ -681,7 +681,7 @@ tbody tr:hover td::before {
 }
 
 .section_map span {
-    font-family: 'ag_letterica-boldbold';
+    font-family: 'ag_letterica-boldbold', arial;
     font-size: 17px;
     color: #6ab5d0;
     text-align: center;
@@ -710,7 +710,7 @@ tbody tr:hover td::before {
     -webkit-box-shadow: 0 3px 14px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 5px 1px -2px rgba(0, 0, 0, 0.3);
     text-align: center;
-    font-family: "arial";
+    font-family: "arial", sans-serif;
     font-size: 21px;
 }
 
@@ -759,7 +759,7 @@ tbody tr:hover td::before {
     -webkit-box-shadow: 0 3px 14px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 5px 1px -2px rgba(0, 0, 0, 0.3);
     text-align: center;
-    font-family: "arial";
+    font-family: "arial", sans-serif;
     font-size: 21px;
     cursor: pointer;
 }
@@ -802,7 +802,7 @@ tbody tr:hover td::before {
     -webkit-box-shadow: 0 3px 14px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 5px 1px -2px rgba(0, 0, 0, 0.3);
     text-align: center;
-    font-family: "arial";
+    font-family: "arial", sans-serif;
     font-size: 21px;
     cursor: pointer;
 }
@@ -890,14 +890,14 @@ tbody tr:hover td::before {
 
 .map_tooltip_item h3 {
     font-size: 17px;
-    font-family: "Avenir LT Std";
+    font-family: "Avenir LT Std", arial;
     margin: 0 0;
 }
 
 .map_tooltip_item p {
     width: 143px;
     font-size: 15px;
-    font-family: "Avenir LT Std";
+    font-family: "Avenir LT Std", arial;
     margin: 0 0;
     line-height: 19px;
     text-align: left;
@@ -906,7 +906,7 @@ tbody tr:hover td::before {
 
 .tooltip span {
     font-size: 23px;
-    font-family: "Avenir LT Std";
+    font-family: "Avenir LT Std", arial;
     color: #7d7d7d;
     padding-top: 5px;
 }
@@ -922,7 +922,7 @@ footer {
 footer h3 {
     color: white;
     font-size: 25px;
-    font-family: "Avenir LT Std";
+    font-family: "Avenir LT Std", arial;
     text-shadow: #0a4a61 1.5px 1.5px 1px;
     margin-top: 16px;
     margin-bottom: 12px;
@@ -939,7 +939,7 @@ footer h3 {
     position: relative;
     box-shadow: 0 0px 8px 2px rgba(21, 61, 80, 0.6) inset;
     font-size: 14px;
-    font-family: "Avenir LT Std";
+    font-family: "Avenir LT Std", arial;
     padding-left: 11px;
     color: white;
     margin-right: 7px;
@@ -952,7 +952,7 @@ footer h3 {
     background-color: #d6e6ef;
     border-radius: 5px;
     font-size: 16px;
-    font-family: "Avenir LT Std";
+    font-family: "Avenir LT Std", arial;
     border: none;
     color: #1380a7;
 }
@@ -976,7 +976,7 @@ footer h3 {
     float: left;
     width: 230px;
     font-size: 14px;
-    font-family: "Avenir LT Std";
+    font-family: "Avenir LT Std", arial;
     color: white;
     line-height: 27px;
     margin-right: 31px;
@@ -1065,7 +1065,7 @@ footer h3 {
 }
 
 .allright {
-	font-family: "Avenir LT Std";
+	font-family: "Avenir LT Std", arial;
     clear: both;
     width: 100%;
     color: white;
