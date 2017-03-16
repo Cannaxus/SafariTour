@@ -982,8 +982,11 @@ footer h3 {
     margin-right: 31px;
 }
 
+.contact_us p {
+    margin: 0 0;
+}
 .contact_us span {
-    margin-left: 42px;
+	margin-left: 38px;
 }
 
 .contact_form {
