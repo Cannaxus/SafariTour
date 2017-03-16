@@ -1,2 +1,0 @@
-# SafariTour
-Portfolio
