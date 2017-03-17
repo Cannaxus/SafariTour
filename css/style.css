@@ -80,19 +80,18 @@ body {
     cursor: pointer;
 }
 
-.main-nav {
-    position: relative;
+nav {
+/*    position: relative;*/
     top: -105px;
     right: -297px;
 }
 
 .main-nav ul {
-    position: absolute;
-    top: 1px;
     float: left;
-    margin-top: 11px;
-    margin-left: -40px;
+    margin-top: -117px;
+    margin-left: 253px;
     font-size: 0px;
+    overflow: hidden;
 }
 
 .main-nav li {
@@ -109,7 +108,7 @@ body {
     text-decoration: none;
     display: block;
     position: relative;
-    height: : 30px
+    height: 51px;
 }
 
 .main-nav a::before {
@@ -378,6 +377,7 @@ body {
 @media (max-width: 1023px) {
     .main-cloud {
         top: 406px;
+		width: 1024px;
     }
 }
 
@@ -400,7 +400,8 @@ h1 {
     line-height: 52px;
     color: white;
     position: relative;
-    left: 32px;
+    /* left: 32px; */
+    padding-left: 31px;
     margin: 0 0;
 }
 
@@ -513,9 +514,10 @@ h1 {
 
 .slider_content {
     clear: both;
-    width: 627px;
+    width: 580px;
     height: 234px;
-    border-top: 1px solid #81ffff;
+    border-style: solid;
+    border-image: linear-gradient(to left, #127ea5 9.7%, #81ffff 10%, #81ffff 100%) 1 0 0 0/1px 0 0 0;
     color: white;
 }
 
@@ -541,11 +543,11 @@ h1 {
 }
 
 .table_tours {
-    margin-top: 11px;
+    margin-top: 9px;
 }
 
 td {
-    padding-right: 25px;
+    padding-right: 22px;
     padding-top: 7px;
 }
 
@@ -557,7 +559,6 @@ tr td:nth-child(1)::before {
     top: 6px;
     border-radius: 50%;
     background-color: #81ffff;
-    margin-left: 3px;
     margin-right: 7px;
 }
 
@@ -610,16 +611,16 @@ tbody tr:hover td::before {
 }
 
 .circle-y_container {
-    width: 213px;
+    width: 178px;
     height: 96px;
     position: absolute;
     overflow: hidden;
-    right: 0px;
+    right: 36px;
     top: -67px;
 }
 
 .circle-y {
-    position: relative;
+    position: absolute;
     width: 145px;
     height: 145px;
     border-radius: 50%;
@@ -629,9 +630,9 @@ tbody tr:hover td::before {
 }
 
 .circle-b {
-    position: relative;
-    bottom: 94px;
-    right: -106px;
+    position: absolute;
+    bottom: -25px;
+    left: 106px;
     width: 65px;
     height: 65px;
     border-radius: 50%;
@@ -639,17 +640,6 @@ tbody tr:hover td::before {
     z-index: 2;
     overflow: hidden;
     border: 3px solid white;
-}
-
-.slider-control::after {
-    content: "";
-    position: absolute;
-    top: 29px;
-    right: -62px;
-    width: 100px;
-    height: 5px;
-    z-index: 10;
-    background-color: #127ea5;
 }
 
 .slider_portfolio {
@@ -1067,6 +1057,7 @@ footer h3 {
     background-position: -163px -113px;
 }
 
+/*
 .allright {
 	font-family: "Avenir LT Std", arial;
     clear: both;
@@ -1076,6 +1067,7 @@ footer h3 {
     padding-top: 10px;
     font-size: 14px;
 }
+*/
 
 ::-webkit-input-placeholder {
 color: #80a2b3;
