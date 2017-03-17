@@ -1057,17 +1057,15 @@ footer h3 {
     background-position: -163px -113px;
 }
 
-/*
+
 .allright {
 	font-family: "Avenir LT Std", arial;
     clear: both;
-    width: 100%;
     color: white;
-    margin: 0px 30%;
-    padding-top: 10px;
+    text-align: center;
     font-size: 14px;
 }
-*/
+
 
 ::-webkit-input-placeholder {
 color: #80a2b3;
