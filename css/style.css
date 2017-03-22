@@ -646,10 +646,6 @@ tbody tr:hover td::before {
     width: 530px;
 }
 
-.slider-bg {
-	position: absolute;
-    left: 15px;
-}
 /*------------------------MAP---------------------*/
 
 .section_map {
