@@ -1,11 +1,11 @@
 body {
-	font-family: 'ag_letterica-boldbold', arial;
-	font-size: 14px;
+    font-family: 'ag_letterica-boldbold', arial;
+    font-size: 14px;
     margin: 0px;
     padding: 0px;
     background: url("../img/bg.jpg") 50% 0 no-repeat;
-	background-color: #d5e6ee;
-	min-width: 1024px;
+    background-color: #d5e6ee;
+    min-width: 1024px;
 }
 
 .container {
