@@ -1,4 +1,4 @@
-# Проект «Техномарт»
+# Проект «SafariTour»
 
 * Вёрстка: [Рачеев Артём](https://github.com/cannaxus).
 * Макет: [CSS Author](http://www.cssauthor.com).
